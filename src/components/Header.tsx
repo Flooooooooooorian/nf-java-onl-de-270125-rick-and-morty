@@ -10,6 +10,9 @@ export default function Header() {
             <Link to="/characters">
                 Characters
             </Link>
+            <Link to={"/characters/add"}>
+                Add
+            </Link>
         </div>
     )
 }
